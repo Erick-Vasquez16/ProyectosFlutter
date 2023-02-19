@@ -23,10 +23,25 @@ class _LoginState extends State<Login> {
           height: 10,
         ),
         _Carne(),
+        SizedBox(
+          height: 3,
+        ),
         _nombre(),
+        SizedBox(
+          height: 3,
+        ),
         _apellidos(),
+        SizedBox(
+          height: 3,
+        ),
         _direccion(),
+        SizedBox(
+          height: 3,
+        ),
         _passwordinput(),
+        SizedBox(
+          height: 3,
+        ),
         _reepassword()
       ],
     );
