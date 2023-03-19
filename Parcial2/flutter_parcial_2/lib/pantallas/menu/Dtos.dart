@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 import 'kitchen.dart';
 
-class Comida extends StatelessWidget {
-   Comida({super.key});
+class Cocina extends StatelessWidget {
+   Cocina({super.key});
 
 
   List productos = [
     {
-      "Nombre": "Hamburguesa",
-      "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOR6CfchR3H6ABHGnzpQX1yaaClJY1CMqcA&usqp=CAU",
-      "Precio": "12.00"
+      "Nombre": "Ollas antiadherentes",
+      "Imagen": "https://cdn-icons-png.flaticon.com/512/1356/1356999.png",
+      "Precio": "15.00"
     },
     {
-      "Nombre": "Tacos",
-      "Imagen": "https://images.hola.com/imagenes/cocina/noticiaslibros/20210917196161/recetas-tacos-mexicanos/0-995-197/portada-tacos-age-m.jpg",
-      "Precio": "5.00"
+      "Nombre": "Sartenes",
+      "Imagen": "https://cdn-icons-png.flaticon.com/512/1356/1356961.png",
+      "Precio": "20.00"
     },
     {
-      "Nombre": "Tortas",
-      "Imagen": "https://cdn1.matadornetwork.com/blogs/2/2019/08/Torta-comida-mexicana-1200x853.jpg",
-      "Precio": "6.00"
+      "Nombre": "Cuchillos de Cocina",
+      "Imagen": "https://cdn-icons-png.flaticon.com/512/1866/1866298.png",
+      "Precio": "15.00"
     }
   ];
 

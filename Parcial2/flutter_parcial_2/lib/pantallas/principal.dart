@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './menu/Dtos.dart';
 import 'package:flutter_parcial_2/pantallas/menu/account.dart';
 import 'package:flutter_parcial_2/pantallas/menu/creditCard.dart';
 import 'package:flutter_parcial_2/pantallas/menu/groceries.dart';
@@ -19,15 +20,16 @@ class _PrincipalState extends State<Principal> {
   }
     final List<Widget> _paginas = [
     
-    Kitchen(),
+    Cocina(),
     CreditCard(),
-    Groceries(),
+    Comida(),
     Account()
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: _paginas[_seleccionado],
+      
       bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           currentIndex: _seleccionado,
@@ -38,6 +40,13 @@ class _PrincipalState extends State<Principal> {
             BottomNavigationBarItem(icon: Icon(Icons.shopping_cart_outlined), label: 'Groceries'),
             BottomNavigationBarItem(icon: Icon(Icons.person_add_alt_sharp), label: 'Account')
           ]),
+          floatingActionButton: FloatingActionButton(
+    onPressed: () {
+      // Aquí puedes agregar la lógica para manejar el evento de presionar el botón
+    },
+    child: Icon(Icons.add),
+  ),
+  floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }
