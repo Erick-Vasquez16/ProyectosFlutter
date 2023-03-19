@@ -9,17 +9,17 @@ class Cocina extends StatelessWidget {
     {
       "Nombre": "Ollas antiadherentes",
       "Imagen": "https://cdn-icons-png.flaticon.com/512/1356/1356999.png",
-      "Precio": "15.00"
+      "Precio": "20.00"
     },
     {
       "Nombre": "Sartenes",
       "Imagen": "https://cdn-icons-png.flaticon.com/512/1356/1356961.png",
-      "Precio": "20.00"
+      "Precio": "30.00"
     },
     {
       "Nombre": "Cuchillos de Cocina",
       "Imagen": "https://cdn-icons-png.flaticon.com/512/1866/1866298.png",
-      "Precio": "15.00"
+      "Precio": "10.00"
     }
   ];
 
