@@ -56,10 +56,8 @@ class _ApodScreenState extends State<ApodScreen> {
               ),
             ),
             
-          ],
-          
-        ),
-        
+          ],          
+        ),      
       ),
       
       body: Column(
