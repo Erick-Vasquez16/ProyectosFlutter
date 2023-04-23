@@ -107,4 +107,5 @@ class _ApodScreenState extends State<ApodScreen> {
         padding: EdgeInsets.symmetric(horizontal: 60, vertical: 60),
         child: Image.network("https://science.nasa.gov/science-red/s3fs-public/styles/image_gallery_scale_960w/public/atoms/A_NGC1333_APOD1024.jpg?itok=DW85KDgi"));
   }
+  
 }
