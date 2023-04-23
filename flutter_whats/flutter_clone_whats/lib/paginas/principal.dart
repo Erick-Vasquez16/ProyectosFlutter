@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_clone_whats/paginas/chat.dart';
+import 'package:flutter_clone_whats/paginas/estado.dart';
 import 'package:flutter_clone_whats/temas/colores.dart';
 import 'package:line_icons/line_icons.dart';
 
@@ -24,7 +25,7 @@ class _PrincipalState extends State<Principal> {
   Widget getBody(){
     return IndexedStack(
       index: paginaIndex,
-      children: [ChatPagina()],
+      children: [ChatPagina(),Estado()],
     );
   }
   Widget getFooter(){

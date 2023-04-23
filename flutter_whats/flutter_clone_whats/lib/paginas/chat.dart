@@ -17,7 +17,8 @@ class _ChatPaginaState extends State<ChatPagina> {
       body: getBody(),
     );
   }
-  Widget getAppBar(){
+
+  PreferredSizeWidget getAppBar(){
 
     return AppBar(
       backgroundColor: bgColor,
